@@ -1,0 +1,57 @@
+//for all the filter queryis we use to do find method
+
+//find method pure document me use hota hai
+//iska mtlb hai ke each and every document apne apne me seprate document hai un documents mai jo bhe cheche(keys values pairs) particular condition ko match kr rhi hai un sbhi documnet  ko filter krke lane ka kam find method karti hai
+
+//chapter nomber 2: aggrigation pipeline
+
+group kregy documnet ka fir unme kuch find karne
+ pipeline ka matlab eak kam ke bad  bad dusra
+
+
+//neha red
+//ajay pink
+//abhishek red
+// rajesh pink
+//kailash red
+
+
+//  mongodb me aek defoult ifd hoti hai  jis id ko object id kahte hai
+object id bo key hai jo sabke liy different hoti hai ya unieq hoti hai kyuki bo unieq hoti hai jis karanse mongodb har eak document ko seprate document ke jysa treet krti hai jis karan  har document apne aap me differ ho gye  kise documnet ka kise documents ke sath koi relationship nahi hai is karan se   ye bale database ko no relationship databse//
+
+(question) why you chose mongodb
+
+(answer) mongodb is having object id with itself which makes all the document unique it has no such problem of primary key secondry key candidate key
+
+
+mongodb is scalable
+it stores data either of the two methods one is vertical scalable method and other one is horizontal scalable method
+
+system design me eak part hoti hai scaling
+sharding: horizontal - vertical
+
+horizentel:we devide the pysical memory into sub memories
+
+vertical sharding: we devide the increase the physical memory
+
+aggrigation pipeline ke mostly used oprators hai
+
+(1) $match==find: consditions ko match karbane ke liy use hoti hai
+(2) $group:jab hame documents ke grouping karni hogi
+(3) $projection: jab hame limited keys dikhani ho
+(4) $unwind: jab hame array ko todna ho
+
+
+
+
+sytem design: me do tarha ke architecture hoti hai
+
+1.monolithics architecture
+2.distributive architecture
+
+
+database software webapp website
+
+database :monolithics or distributive
+monolithics=find ,vertical scaling hoti hai
+distributive =aggrigation pipeline ,horizentel scaling hoti hai 

@@ -1,0 +1,472 @@
+Find all users from Mumbai who know JavaScript.
+(ans)db.user.aggegate(
+
+    [
+  {
+    $match: {
+      city:"Mumbai",
+      skills:"JavaScript"
+    }
+  }
+]
+)
+Find all female users who are above age 30.
+(ans)
+db.user.aggegate(
+[
+  {
+    $match: {
+      gender:"Female",
+      age:{$gt:30}
+    }
+  }
+]
+)
+Find all users who have the same first name.
+(ans)db.user.aggegate(
+    [
+  {
+  $group: {
+    _id: "$firstName",
+    countuser:{$sum:1},
+    user:{$push:"$$ROOT"}
+    }
+  }
+]
+)
+Find the count of users for each role (admin, customer).
+(ans)db.user.aggegate(
+    [
+  {
+  $group: {
+    _id: "$role",
+    countuser:{$sum:1},
+
+    }
+  }
+]
+)
+How many users are from Mumbai?
+(ans)db.user.aggegate(
+    [
+  {
+  $match: {
+    city:"Mumbai"
+
+    }
+  },
+  {
+    $count:{'totaluserarefromumbai'}
+  }
+]
+)
+How many male users are from Goa?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      gender:"Male",
+      city:"Goa"
+    }
+  },
+  {
+    $count: 'totaluserfromGOa'
+  }
+]
+)
+Find all users who have the same email domain (e.g., @gmail.com).
+(ans)db.user.aggegate(
+    [
+  {
+$group: {
+  _id:"$useremail",
+  countuser:{$sum:1},
+  user:{$push:"$$ROOT"}
+
+    }
+  },
+]
+)
+Find all male users from Kolkata who know Python.
+(ans)db.user.aggegate(
+    [
+  {
+$match: {
+  gender:"Male",
+  skills:"Python",
+  city:"Kolkata"
+
+    }
+  },
+
+]
+)
+Find all users who are from either Assam or Goa.
+(ans)db.user.aggegate(
+    [
+  {
+$match: {
+city:{$in:["Goa","Asam"]}
+    }
+  },
+
+]
+)
+Find all users who have a salary greater than 1,000,000.
+(ans)db.user.aggegate(
+    [
+  {
+$match: {
+salary:{$gt:1000000}
+    }
+  },
+
+]
+)
+Find the count of users who know Python.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      skills:"Python"
+
+    }
+
+  },
+  {
+    $count: 'userknownPython'
+  }
+
+]
+)
+How many users are from Kolkata?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      city:"Kolkata"
+
+    }
+  },
+  {
+    $count: 'totaluserfromkolkata'
+  }
+
+]
+)
+How many male users are from Hyderabad who know JavaScript?
+(ans)db.user.aggegate(
+    [
+    {
+        $match: {
+        gender:"Male",
+        city:"Hyderabad",
+        skills:"JavaScript"
+
+        }
+
+    },
+    {
+        $count: 'totaluserfromHyderabadskilljavascript'
+    }
+
+]
+)
+How many female users are from New Delhi who have a salary greater than 500,000?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      gender:"Female",
+      city:"New Delhi",
+      salary:{$gt:500000}
+
+    }
+
+  },
+  {
+    $count: 'totolauserfromNewDelhisalarygreterthan500000'
+  }
+
+]
+)
+Find all users who have the skill "Django" and are under the age of 30
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+skills:"Django",
+      age:{$lt:30}
+
+    }
+
+  },
+
+]
+)
+Find all users from Assam who know Kotlin.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+city:"Assam",
+      skills:"Kotlin"
+
+    }
+  },
+]
+)
+Find all users who are from either Hyderabad or Jaipur.
+(ans)d.user.aggegate(
+    [
+  {
+    $match: {
+city:{$in:["Hyderabad","Jaipur"]},
+    }
+  },
+]
+)
+Find all female users from Mumbai who are under the age of 30.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+gender:"Female",
+      city:"Jaipur",
+      age:{$lt:30}
+    }
+  },
+]
+)
+Find all male users who know both Java and SQL.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+        gender:"Male",
+skills:{$all:["Java","SQL"]}
+    }
+  },
+]
+)
+Find the count of users who have a salary less than 600,000.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      salary:{$lt:600000}
+    }
+  },
+  {
+    $count: 'salarylessthan600000'
+  }
+
+]
+)
+How many users are from Assam who know React?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+    city:"Assam",
+      skills:"React"
+    }
+  },
+  {
+    $count: 'totaluserfromassamhwoknowsreact'
+  }
+]
+)
+How many male users are from Goa who are above the age of 25?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+gender:"Male",
+      city:"Goa",
+      age:{$gt:30}
+
+    }
+  },
+  {
+    $count: 'totalmaleuserfromGoa'
+  }
+]
+)
+Find all users who have a first name that starts with "A".
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+firstName:/^A/
+    }
+  },
+]
+)
+How many female users are from Kolkata who know both Django and SQL?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+gender:"Female",
+      city:"Kolkata",
+      skills:{$all:["Django","SQL"]}
+    }
+  },
+  {
+    $count: 'femaleuserfromkolkataskillsDjangoandSQl'
+  }
+]
+)
+Find all users who have the role "admin" and are from New Delhi.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+role:"admin",
+      city:"New Delhi"
+    }
+  },
+]
+)
+Find all male users from Hyderabad who know Node.js.
+
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+gender:"Male",
+      city:"Hyderabad",
+      skills:"Node.js"
+    }
+  },
+]
+)
+Find all female users from Kolkata who are above age 25.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+gender:"Female",
+      city:"Kolkata",
+      age:{$gt:25}
+    }
+  },
+]
+)
+Find all users from Delhi who have a salary greater than 800,000.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      city:"New Delhi",
+      salary:{$gt:800000}
+    }
+  },
+  {
+    $count: 'totaluserfromNewDelhisalaryabove800000'
+  }
+]
+)
+Find all users who know both Java and Python.
+(ans)db.user.find(
+    [
+  {
+    $match: {
+     skills:{$all:["Java","Python"]}
+
+    }
+  },
+  // {
+  //   $count: 'totaluserskillsjavandPython'
+  // }
+]
+)
+Find the count of users who are under the age of 30.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+    age:{$lt:30}
+
+    }
+  },
+  {
+    $count: 'totaluserwhohaveageunder30'
+  }
+]
+)
+How many female users are from Mumbai who know C++?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+    gender:"Female",
+      city:"Mumbai",
+      skills:"C++"
+    }
+  },
+  {
+    $count: 'totaluserfromMumbaiskillsC++'
+  }
+]
+)
+How many male users from Assam have a salary less than 500,000?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+gender:"Male",
+      city:"Assam",
+      salary:{$lt:500000}
+    }
+  },
+{
+  $count: 'totaluserfromAssamsalarylessthan500000'
+}
+]
+)
+Find all users who have the last name "Sharma" and are from Jaipur.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+lastName:"Sharma",
+      city:"Jaipur"
+    }
+  },
+{
+  $count: 'totaluserfromjaipurlastnamesharma'
+}
+]
+)
+How many users from Goa know both HTML and CSS?
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      city:"Goa",
+      skills:{$all:["HTML","CSS"]}
+
+    }
+  },
+{
+  $count: 'totaluserfromGoaskillsHTMLandCSS'
+}
+]
+)
+Find all users who are from either Hyderabad or Kolkata and know JavaScript.
+(ans)db.user.aggegate(
+    [
+  {
+    $match: {
+      city:{$in:["Hyderabad","Kolkata"]},
+      skills:"JavaScript"
+
+    }
+  },
+{
+  $count: 'totaluserfromHyderabadorKolkataskillsjavascript'
+}
+]
+)

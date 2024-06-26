@@ -1,0 +1,51 @@
+introduction to mongodb sql and nosql
+setting up mongodb detabase step by step
+what is json how it is related to array of objects in JavaScript
+what is collection in mongodb how it ios different from tables in sql
+what is document in mongodb how it is diffrent from rows in sql
+how to perform scaling in mongodb
+what is sharding in mongodb?
+how to filter data in mongodb?
+what is replica sets in mongodb how to it realatec to the conceptof system
+how mongodb ensures redundancy
+what is cuslters in mongodb
+how mongodb ensures data safety and security
+what is mongodb atlas?how it is defrent from mongodb community server?
+what archetecture of system desine mongodb follow.
+what is mongodb compass ? how it is deffrent from mongodb shell?
+What is Database? How it is different from datastructure. Is mongodb a language?
+kya sach mai SQL par bhari padhega NO SQL?
+AJ shuru kaha se karna chahiye from SQL or directly from No SQL
+Kya SQL ana chahiye No-Sql ko shikne ke liye?
+aggregation pipleline kya hoti hai?
+MongoDB mai arithmetic operations calculations kar sakte hai kya
+Kya Mongodb mai variables available hai. Isme $ sign se jitne operators hai wo khud kis language par based hai wo kam kaise kar rahe hai?
+No Sql par based kitne aasie languages available hai.
+what are the loop holes in mongodb?
+
+
+system design
+
+instagram, whatsapp, ecommerce website,
+facebook, youtube, netflix, amazon, google, uber, oyo, zomato,
+flipkart, amazon, paytm, phonepe, google pay, apple pay, samsung pay,
+
+//website open leke karke pura website travel karna
+//konsa page se shuru ho rhaa hai aur kaha khatam ho raha hai
+//kisko click karne se kaha reach kar rahe hai
+//konsa page par kya route likhe hai
+//kya har page ki design same hai
+//kya har page par same information ka format hai sirf information alag hai
+//kya har page par same functionality hai sirf information alag hai
+//kya har page par same layout hai sirf information alag hai
+//kya har page par same navigation hai sirf information alag hai
+//kya har page par same header footer hai sirf information alag hai
+//kya har page par same sidebar hai sirf information alag hai
+//kya har page par same search functionality hai sirf information alag hai
+//kya har page par same filter functionality hai sirf information alag hai
+//kya har page par same sorting functionality hai sirf information alag hai
+//kya har page par same pagination functionality hai sirf information alag hai
+//kya har page par same authentication functionality hai sirf information alag hai
+//kya har page par same authorization functionality hai sirf information alag hai
+//kya har page par same error handling functionality hai sirf information alag hai
+//kya har page par same loading functionality hai sirf information alag hai
