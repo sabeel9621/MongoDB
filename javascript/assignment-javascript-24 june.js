@@ -1,14 +1,9 @@
 // 1.=> aapko arrow function ke madad se 4 input lena hai aur uska sum calculate karna hai'
 
-// let calculatesum = (a,b,c,d,e)=> a+b+c+d+e;
-
-// let sum = calculatesum(10,20,30,40,50);
-// console.log(sum: ${sum})
-
-// const sum = (a, b, c, d) => {
-//     return a + b + c + d;
-// };
-// console.log(sum(1, 2, 3, 4));
+const sum = (a, b, c, d) => {
+    return a + b + c + d;
+};
+console.log(sum(1, 2, 3, 4));
 
 
 // -----------------------------------------------
@@ -23,7 +18,7 @@
 //     }
 //     let factorial = fact(5);
 
-const factorial=(n)
+
 
 //----------------------------------------------------
 // 3.=>use the concept of hoisiting and call a factorial function without declaring it and then define after calling
