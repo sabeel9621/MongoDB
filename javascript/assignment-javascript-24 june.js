@@ -1,9 +1,9 @@
 // 1.=> aapko arrow function ke madad se 4 input lena hai aur uska sum calculate karna hai'
 
-const sum = (a, b, c, d) => {
-    return a + b + c + d;
-};
-console.log(sum(1, 2, 3, 4));
+// const sum = (a, b, c, d) => {
+//     return a + b + c + d;
+// };
+// console.log(sum(1, 2, 3, 4));
 
 
 // -----------------------------------------------
@@ -58,7 +58,17 @@ console.log(sum(1, 2, 3, 4));
 //         return n * arguments.callee(n - 1);
 //     }
 // `);
-
-
 // const result = factorial(5);
 // console.log(result);
+
+// function evenodd () {
+//     this.a = a;
+//     this.result = () => {
+//         if (this.a % 2 == 0) {
+//             return "even";
+//         } else {
+//             return "odd";
+//         }
+//     }
+// }
+// evenodd(5);
