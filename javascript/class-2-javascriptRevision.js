@@ -86,12 +86,12 @@ add(); // add is reference to the that annoniomous function
 
 // b) using let
 
- let add=function (a, b) {
+let add = function (a, b) {
     return a - b;
 
 };
 //let can be reassign but not redeclaire
-add(3,5)
+add(3, 5)
 const add = function (a, b) {
     return a - b;
 };
@@ -101,7 +101,7 @@ add(3, 5);
 
 //arrow function
 //a)using bar
-var add = (a,b) => {
+var add = (a, b) => {
     return (a + b);
 }
 add(3, 5);
@@ -111,7 +111,7 @@ let add = (a, b) => {
 }
 add(3, 5);
 //a)using const
-const add = (a,b) => {
+const add = (a, b) => {
     return (a + b);
 }
 add(3, 5);
@@ -125,13 +125,13 @@ var result = (function (a, b) {
 console.log(result);
 //using let
 
-let result = ((a, b)=> {
+let result = ((a, b) => {
     return a + b;
 })(2, 5);
 console.log(result);
 //using const
 
-const result = ((a, b)=> {
+const result = ((a, b) => {
     return a * b;
 
 })(4, 7);
@@ -146,7 +146,7 @@ console.log(result);
 // example
 
 //default cunstructor
- function add () {
+function add () {
     this.a = 3;
     this.b = 5;
     this.result = function () {
@@ -157,7 +157,7 @@ add();
 
 // paramterised cunstructor
 
-function sub (a,b) {
+function sub (a, b) {
     this.a = 3;
     this.b = 5;
     this.result = function () {
@@ -165,6 +165,3 @@ function sub (a,b) {
     };
 }
 sub();
-
-
-
