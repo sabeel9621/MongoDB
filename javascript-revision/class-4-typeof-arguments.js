@@ -22,7 +22,7 @@
 //     });
 //     return sum;
 // }
-// console.log(sum(3.5, 4.5, 5.5, 6.5, 7.5, 8.9, 9.3));
+// console.log(sum(3, 4, 5, 6, 7, 8, 9));
 //rest parameters ka consept  tab ata ek hi category ki value ho jaise sum karte wakt sabhi values numbers hi hote
 //numbers , fruits ===>array ka ki dusra takira
 
