@@ -39,7 +39,7 @@
 // const person = {
 //     name: "mohit",
 //     age: 27,
-//     skills: ["Java", "Python", "Cpp"]
+//     skills: ["Java", "Python", "C++"]
 
 // }
 // greet(person);
@@ -63,10 +63,10 @@
 // const person = {
 //     name: "mohit",
 //     age: 27,
-//     skills: ["Java", "Python", "Cpp"]
+//     skills: ["Java", "Python", "C++"]
 
 // }
-// const skills = ["java", "cpp", "python"];
+// const skills = ["java", "c++", "python"];
 // const [a, b, c] = skills;
 // console.log(a);
 // console.log(b);
