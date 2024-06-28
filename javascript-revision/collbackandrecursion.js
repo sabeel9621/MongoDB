@@ -16,10 +16,14 @@ function sub (a, b) {
 function mul (a, b) {
     return a * b;
 }
+function devide (a, b) {
+    return a / b;
+}
 
-console.log(calculator(3, 5, sum));
-console.log(calculator(5, 3, sub));
-console.log(calculator(5, 3, mul));
+console.log(calculator(8, 5, sum));
+console.log(calculator(9, 3, sub));
+console.log(calculator(12, 3, mul));
+console.log(calculator(12, 3, devide));
 
 const arr = ["Java", "Python", "CSS"];
 
