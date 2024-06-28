@@ -6,7 +6,7 @@
 // console.log(sum(1, 2, 3, 4));
 
 
-// -----------------------------------------------
+
 // 2.=>using annoymous arrow function create a function which does factorial of 5
 
 // let fact =(n)=>{
@@ -20,7 +20,7 @@
 
 
 
-//----------------------------------------------------
+
 // 3.=>use the concept of hoisiting and call a factorial function without declaring it and then define after calling
 
 // const result = factorial(5);
@@ -36,7 +36,7 @@
 
 // }
 
-// ------------------------------------------------------
+
 // 4.=> use the concept of immediately invoked function to check whether a number is even or odd.
 
 // function evenodd(n){
@@ -48,7 +48,7 @@
 //     }
 // }evenodd(15);
 
-// --------------------------------------------------------------------
+
 // 5.=>using the concept of parameterised function constructor call factorial function
 
 // const factorial = new Function('n', `
