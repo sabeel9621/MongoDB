@@ -373,15 +373,15 @@
 // // User se 3 input lena hai, inka average nikalna hai.Agar average > 40 hai to ek function call karna hai, jisme 2 input lena hai aur unka product return karna hai.Agar product negative hai to absolute value return karna hai.
 
 // let product2 = () => {
-//     let x = 30,
+//     let x = 10,
 //         y = 20;
 //     return x * y;
 // };
 
 
 // const main = () => {
-//     let a = 20,
-//         b = 10,
+//     let a = 10,
+//         b = 20,
 //         c = 30;
 //     let avg = (a + b + c) / 3;
 //     if (avg > 40) {
@@ -413,7 +413,7 @@
 // };
 
 // const main = () => {
-//     let a = 20,
+//     let a = 10,
 //         b = 30;
 //     let max = a;
 //     if (b > max) max = b;
