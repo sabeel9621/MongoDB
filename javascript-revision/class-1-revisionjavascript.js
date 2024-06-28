@@ -107,8 +107,7 @@
 
 //  //ek jagah ya fir distribute kar do
 //  system design ke topics
-//  1. monolithic architecture : single folder, single file self-contained.
-
+//  1. monolithic architecture : single folder, single file jisme sab kuch eak he file ya folder me  hota hai html css and javascript.
 //  2. distributive architecture : components, folders its dipending on each other  without using a pattern
 
 //  that process is called as hosting.
