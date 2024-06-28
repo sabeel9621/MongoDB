@@ -32,7 +32,7 @@ function masterFunction (info, func) {
 
 
 function printName (name) {
-    console.log("name: ${Aman} ");
+    console.log("name: ${Mohit} ");
 }
 
 function printAge (age) {
@@ -44,7 +44,7 @@ function printRollNo (rollNo) {
 }
 
 const user = {
-    username: 'Aman',
+    username: 'Mohit',
     age: 25,
     rollNo: 12345
 }
