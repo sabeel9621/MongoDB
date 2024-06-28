@@ -161,6 +161,28 @@
 
 
 // // User se 4 input lena hai, inka minimum nikalna hai.Agar minimum < 10 hai to ek function call karna hai aur minimum ko 5 se multiply karna hai aur result return karna hai.Agar result > 50 hai to factorial nikalna hai aur result return karna hai.
+// function multipication (n) {
+//     return n * 5
+// }
+// function main () {
+//     let a = 9;
+//     let b = 70;
+//     let c = 50;
+//     let d = 60;
+//     let min = a;
+//     if (b < min) min = b;
+//     if (c < min) min = c;
+//     if (d < min) min = d;
+//     console.log(min);
+//     if (min < 10) {
+//         let result = multipication(min)
+//         console.log(result)
+//     }
+// }
+// let finalresult = main()
+// console.log(finalresult)
+
+
 
 // //     Question 4
 // // User se 3 input lena hai, unka sum nikalna hai.Agar sum > 80 hai to ek function call karna hai, jisme 2 input lena hai aur unka division result return karna hai.Agar result integer hai to us integer ka reverse return karna hai.
@@ -515,8 +537,17 @@
 
 
 
+// function divede (n1, n2) {
+//     return Math.floor(n1/n2)
+// }
 
-
+// function factorial (n) {
+//     let fact = 1;
+//     for (let i = 1; i <= n; i++){
+//         fact = fact * i;
+//     }
+//     return fact;
+// }
 
 // const main=()=>{
 //     let a = 20,
@@ -527,10 +558,13 @@
 //     let product = a * b * c * d * e;
 //     if (product > 500) {
 //         let res = divede(product/5);
-
+//         let res2 = factorial(res);
+//         console.log(res2);
 //     }
 
 // }
+// main();
+
 
 
 // // User se 4 input lena hai, inka maximum nikalna hai.Agar maximum > 20 hai to ek function call karna hai aur check karna hai wo prime hai ya nahi.Agar prime hai to uska double return karna hai.
