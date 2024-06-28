@@ -1,7 +1,5 @@
 // object litrels====================================
-//=====================================================
-//=====================================================
-
+//==================================================
 // In JavaScript, both the rest and spread operators use the same syntax(...).However, they are used in different contexts and serve different purposes.Rest Operator
 // The rest operator allows you to represent an indefinite number of arguments as an array.It is used in function parameter definitions and destructuring assignments to collect remaining elements.Usage in Function Parameters
 // The rest operator can be used to gather all remaining arguments of a function into an array.
@@ -9,7 +7,7 @@
 // function sum (...numbers) {
 //     return numbers.reduce((total, number) => total + number, 0);
 // }
-// console.log(sum(1, 2, 3, 4)); // Output: 10
+// console.log(sum(1, 2, 3, 4,5,6,7,8,9)); // Output: 10
 
 // Usage in Destructuring
 
