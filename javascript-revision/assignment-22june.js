@@ -47,12 +47,12 @@
 
 // const prodof2 = () => {
 //     let a = -99,
-//         b = 66;
+//         b = 65;
 //     return a * b;
 // };
 
 // const main = () => {
-//     let a = 93,
+//     let a = 83,
 //         b = 95,
 //         c = 99;
 //     let avg = (a + b + c) / 3;
