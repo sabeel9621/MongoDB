@@ -1,7 +1,7 @@
 //type of veriale declaration
 //1.let
 //const
-//var
+//var.
 //let and const block scoped
 //wo sirf eak block tak he semit hai if ho ya for ho
 //var is a function scoped throughout the function
@@ -10,7 +10,7 @@
 
 //example
 {
-    let a = 10;
+    let a = 20;
     console.log(a);
 }
 console.log(a);
@@ -18,7 +18,7 @@ console.log(a);
 // here a is not define outside the block
 
 {
-    var b = 20;
+    var b = 30;
     console.log(b);
 }
 console.log(b);
