@@ -1,4 +1,5 @@
 //arguments? inputs are the besiacally arguments
+
 // 1.postional arguments=> calling ke time pr jyse argument pass kregy bysa he output ayga
 
 // function greet (name, age) {
