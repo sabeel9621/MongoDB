@@ -1,10 +1,8 @@
 // 1. create an object name fruits which should atleast 5 keys such that fruit name, fruit price.... it should have an array as key now
-// you have to pass this object in a function which will accept it in destructure format now print all the information and call a function which will going to pass the key array into another function and call one function that will pass the object as key into another
-
-
+// you have to pass this object in a function which will accept it in destructure format now print all the information and call a function which will going to pass the key array into another function and call one function that will pass the object as key into anothe
 // const fruits={
 //     name: ["Apple","mango","banana","kiwi"],
-//     color: "red",
+//     color: "Red",
 //     price: "150",
 //     state: "kashmir",
 //     origin: "india"
@@ -73,7 +71,6 @@
 
 // 3. Create an object named product with at least 5 keys(e.g., productName, productPrice, etc.).One of the keys should have an array as its value.Then, create a function that accepts this object in destructured format, prints all the information, and calls another function that will pass the key array into another function.Additionally, call a function that will pass the object as a key into another function and print all the keys.
 
-
 // const product = {
 //     name: "laptop",
 //     price: 35000,
@@ -135,7 +132,7 @@
 //     orderTotal:1000000,
 //     items: ["Laptop", "Mouse", "Keyboard"],
 //     orderDetails: {
-//         tracorder:"lucknow",orderid:"12345",orderprice:"1000000"
+//         tracorder:"trackorder",orderid:"12345",orderprice:"1000000"
 //     },
 // };
 // function function4 (a) {
