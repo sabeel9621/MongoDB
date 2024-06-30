@@ -98,7 +98,15 @@
 
 // console.log(summation(2, 3, 4, 5, 6));
 
+// 6.frequency count using reduce function
+// const frequencycount = (...nums) => {
+//     return nums.reduce((count, num) => {
+//         if (num == 3) return count + 1;
+//         else return count;
+//     }, 0);
+// };
 
+// console.log(frequencycount(1, 2, 3, 3, 3, 3, 3, 4, 5, 6));
 
 // Concatenating Multiple Arrays:
 // Create a function that accepts multiple arrays as arguments and returns a single array that concatenates all of them.Explain how the rest operator helps in gathering all the arrays and how you can use the spread operator to concatenate them.

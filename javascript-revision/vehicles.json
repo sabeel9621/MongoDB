@@ -1,0 +1,222 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2018,
+        "price": 18000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Backup Camera"
+        ]
+    },
+    {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2020,
+        "price": 20000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Navigation System"
+        ]
+    },
+    {
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2017,
+        "price": 25000,
+        "features": [
+            "Air Conditioning",
+            "4WD",
+            "Backup Camera"
+        ]
+    },
+    {
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2019,
+        "price": 19000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Heated Seats"
+        ]
+    },
+    {
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2021,
+        "price": 24000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Sunroof"
+        ]
+    },
+    {
+        "make": "BMW",
+        "model": "X5",
+        "year": 2016,
+        "price": 30000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Navigation System"
+        ]
+    },
+    {
+        "make": "Audi",
+        "model": "A4",
+        "year": 2015,
+        "price": 22000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Leather Seats"
+        ]
+    },
+    {
+        "make": "Mercedes",
+        "model": "C-Class",
+        "year": 2017,
+        "price": 28000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Backup Camera"
+        ]
+    },
+    {
+        "make": "Kia",
+        "model": "Sorento",
+        "year": 2018,
+        "price": 21000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "4WD"
+        ]
+    },
+    {
+        "make": "Hyundai",
+        "model": "Sonata",
+        "year": 2019,
+        "price": 19500,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Heated Seats"
+        ]
+    },
+    {
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2021,
+        "price": 35000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Autopilot"
+        ]
+    },
+    {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2019,
+        "price": 27000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Backup Camera"
+        ]
+    },
+    {
+        "make": "Toyota",
+        "model": "RAV4",
+        "year": 2018,
+        "price": 23000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Navigation System"
+        ]
+    },
+    {
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2020,
+        "price": 25000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Sunroof"
+        ]
+    },
+    {
+        "make": "Chevrolet",
+        "model": "Impala",
+        "year": 2016,
+        "price": 17000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Backup Camera"
+        ]
+    },
+    {
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2017,
+        "price": 29000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Leather Seats"
+        ]
+    },
+    {
+        "make": "Audi",
+        "model": "Q5",
+        "year": 2018,
+        "price": 33000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Navigation System"
+        ]
+    },
+    {
+        "make": "Mercedes",
+        "model": "E-Class",
+        "year": 2019,
+        "price": 35000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Sunroof"
+        ]
+    },
+    {
+        "make": "Kia",
+        "model": "Optima",
+        "year": 2021,
+        "price": 22000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Backup Camera"
+        ]
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "price": 18000,
+        "features": [
+            "Air Conditioning",
+            "Bluetooth",
+            "Heated Seats"
+        ]
+    }
+]

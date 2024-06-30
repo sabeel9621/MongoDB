@@ -24,6 +24,13 @@
 //     }
 // console.log(maximum(50, 60, 170, 20, 30));
 
+// const maxsub=(max, p)=> {
+//      return max - p;
+
+// }
+
+
+
 
 // User se 3 input lena hai, inka average nikalna hai.Agar average > 40 hai to ek function call karna hai, jisme 2 input lena hai aur unka product return karna hai.Agar product negative hai to absolute value return karna ha  aur uske baad uska reverse nikalna.agar product positive hai to fir check karna hai ki product prime number hai ya nahi hai.
 
