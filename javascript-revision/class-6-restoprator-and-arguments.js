@@ -112,6 +112,8 @@
 // Create a function that accepts multiple arrays as arguments and returns a single array that concatenates all of them.Explain how the rest operator helps in gathering all the arrays and how you can use the spread operator to concatenate them.
 
 
+
+
 // Combining Object Properties:
 // Write a function that accepts multiple objects and combines their properties into a single object.Explain the use of the rest operator to gather the objects and how to merge their properties.
 
@@ -162,7 +164,3 @@
 
 // Object Destructuring with Rest:
 // Implement a function that accepts an object and destructures it, using the rest operator to gather the remaining properties.Explain how object destructuring works with the rest operator to separate specific properties from the rest.
-// Class comments
-// Your work
-// Assigned
-// Private comments

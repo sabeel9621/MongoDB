@@ -60,14 +60,14 @@
 //     function2(skills);
 // }
 
-// const person = {
-//     name: "mohit",
-//     age: 27,
-//     skills: ["Java", "Python", "C++"]
+const person = {
+    name: "mohit",
+    age: 27,
+    skills: ["Java", "Python", "C++"]
 
-// }
-// const skills = ["java", "c++", "python"];
-// const [a, b, c] = skills;
-// console.log(a);
-// console.log(b);
-// console.log(c);
+}
+const skills = ["java", "c++", "python"];
+const [a, b, c] = skills;
+console.log(a);
+console.log(b);
+console.log(c);

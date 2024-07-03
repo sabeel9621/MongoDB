@@ -16,7 +16,7 @@ group kregy documnet ka fir unme kuch find karne
 //kailash red
 
 
-//  mongodb me aek defoult ifd hoti hai  jis id ko object id kahte hai
+//  mongodb me aek defoult id hoti hai  jis id ko object id kahte hai
 object id bo key hai jo sabke liy different hoti hai ya unieq hoti hai kyuki bo unieq hoti hai jis karanse mongodb har eak document ko seprate document ke jysa treet krti hai jis karan  har document apne aap me differ ho gye  kise documnet ka kise documents ke sath koi relationship nahi hai is karan se   ye bale database ko no relationship databse//
 
 (question) why you chose mongodb
@@ -32,7 +32,7 @@ sharding: horizontal - vertical
 
 horizentel:we devide the pysical memory into sub memories
 
-vertical sharding: we devide the increase the physical memory
+vertical sharding: we try to  increase the physical memory
 
 aggrigation pipeline ke mostly used oprators hai
 
@@ -54,4 +54,4 @@ database software webapp website
 
 database :monolithics or distributive
 monolithics=find ,vertical scaling hoti hai
-distributive =aggrigation pipeline ,horizentel scaling hoti hai 
+distributive =aggrigation pipeline ,horizentel scaling hoti hai

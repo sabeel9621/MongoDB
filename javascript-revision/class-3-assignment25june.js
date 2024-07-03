@@ -48,7 +48,13 @@
 // console.log(finalresult)
 
 
+
+
+
+
 // // User se 2 input lena hai, inka product nikalna hai.Agar product < 50 hota hai to ek function call karna hai, jisme product aur ek user input ko add karna hai aur result ko return karna hai.Agar returned value odd hai to ek aur function call karke us value ko square karna hai aur result return karna hai.
+//
+
 // function addnum (a, b) {
 //     return a + b
 // }
@@ -64,7 +70,7 @@
 //         let c = 15;
 //         let result = addnum(product, c)
 //         if (result % 2 !== 0) {
-//             result = oddsqure(result)
+//             let oddsqure= result;
 //         }
 //         console.log(`final result is ${ result }`)
 //     }
@@ -124,6 +130,38 @@
 // // User se 3 input lena hai, inka sum nikalna hai.Agar sum 0 hota hai to ek function call karna hai aur check karna hai ki wo perfect square hai ya nahi.Agar perfect square hai to uska square root nikalna hai aur result return karna hai.
 
 
+// function isPerfectSquare (n) {
+//     if (n < 0) return false;
+//     const sqrt = Math.sqrt(n);
+//     return sqrt === Math.floor(sqrt);
+// }
+
+// function getSquareRootIfPerfectSquare (n) {
+//     if (isPerfectSquare(n)) {
+//         return Math.sqrt(n);
+//     } else {
+//         return null;
+//     }
+// }
+
+// function calculateSumAndCheckPerfectSquare (a, b, c) {
+//     const sum = a + b + c;
+//     if (sum === 0) {
+//         return getSquareRootIfPerfectSquare(sum);
+//     } else {
+//         return sum;
+//     }
+// }
+
+
+// const a = -1;
+// const b = 1;
+// const c = 0;
+// const result = calculateSumAndCheckPerfectSquare(a, b, c);
+// console.log(result);
+
+
+
 // //     Question 3
 // User se 5 input lena hai, inka average nikalna hai.Agar average > 60 hai to ek function call karna hai, jisme 3 input lena hai aur unka product return karna hai.Agar product even hai to uska half return karna hai, agar odd hai to uska double return karna hai.
 
@@ -161,6 +199,8 @@
 
 
 // // User se 4 input lena hai, inka minimum nikalna hai.Agar minimum < 10 hai to ek function call karna hai aur minimum ko 5 se multiply karna hai aur result return karna hai.Agar result > 50 hai to factorial nikalna hai aur result return karna hai.
+
+
 // function multipication (n) {
 //     return n * 5
 // }
