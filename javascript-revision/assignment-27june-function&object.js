@@ -111,7 +111,7 @@
 //     })
 // }
 
-// function productinfo ({ name, price, category, productstock, productfeatures,address }) {
+// function productinfo ({ name, price, category, productstock, productfeatures,Address }) {
 
 //     console.log(`name ${name} price ${price} category ${category} productstock ${productstock} productfeatures ${productfeatures}`);
 //     function2(productfeatures);
@@ -119,6 +119,7 @@
 
 // }
 // productinfo(product)
+
 
 
 // Order Data
