@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container{
+    /* border: 2px solid black; */
+    width: 72%;
+    margin: auto;
+    padding:2rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+      background: hsl(198, 61%, 89%);
+}
+
+
+
+.weather-card1 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    max-width: 300px;
+    height: 500px;
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20230413/original/pngtree-warm-background-of-small-town-at-the-foot-of-the-mountain-picture-image_2422430.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+
+
+
+}
+
+.inner-weather{
+    display: flex;
+    padding: 10px 0px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.inner-weather p{
+    color: white;
+    font-size: 20px;
+    /* padding: 10px; */
+}
+.inner-weather .left p span{
+    color: white;
+    font-size: 25px;
+}
+.inner-weather .right span i{
+    font-size: 50px;
+    color: white;
+}
+.weather-card1 .deg{
+    border: 2px solid ;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.weather-card2 .deg{
+    border: 2px solid ;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.weather-card3 .deg{
+    border: 2px solid ;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+
+
+.weather-card2 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    max-width: 300px;
+    height: 500px;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/28/06/53/house-7226681_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+.weather-card3 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    max-width: 300px;
+    height: 500px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-photo/vector-vector-illustration-winter-landscape-holiday-christmas-background-with-winter-landscape_724677-565.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+
+  </style>
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="weather-card1">
+            <div class="inner-weather">
+                <div class="left">
+                    <p>It's <span> Cloudy</span></p>
+                </div>
+                <div class="right">
+                    <span><i class="fa-solid fa-cloud-moon"></i></span>
+                </div>
+            </div>
+            <div class="deg">
+                17°
+            </div>
+        </div>
+        <div class="weather-card2">
+            <div class="inner-weather">
+                <div class="left">
+                    <p>It's <span>Raining</span></p>
+                </div>
+                <div class="right">
+                    <span><i class="fa-solid fa-cloud-showers-heavy"></i></span>
+                </div>
+            </div>
+            <div class="deg">
+                15°
+            </div>
+        </div>
+        <div class="weather-card3">
+            <div class="inner-weather">
+                <div class="left">
+                    <p>It's <span> Cloudy</span></p>
+                </div>
+                <div class="right">
+                    <span><i class="fa-regular fa-snowflake"></i></span>
+                </div>
+            </div>
+            <div class="deg">
+                12°
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,201 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .maincontainer{
+            /* border: 2px solid red; */
+            width: 75%;
+            margin: auto;
+            padding: 5rem 0rem;
+            border-radius: 10px;
+            background-color: hsl(0, 0%, 90%);
+            transition: background-color 300ms;
+        }
+           .container{
+            /* height:600px; */
+            width: 75%;
+            margin: auto;
+            padding: 2rem 0rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           flex-wrap: wrap;
+            border-radius:10px;
+            /* background: url(https://i.pinimg.com/originals/b3/7f/19/b37f19f8d802dae63f088a95cdefa1ef.jpg); */
+            background:linear-gradient(45deg,(rgb(28, 114, 184),rgb(103, 143, 176)));
+               background: linear-gradient(to bottom, rgb(231, 245, 250), rgb(176, 235, 246));
+
+        }
+
+            .card1{
+            height: 550px;
+            width: 300px;
+            /* border: 1px solid grey; */
+            margin: 30px;
+            /* margin-left: 150px; */
+            /* border-radius: 1rem; */
+            background-color: #D3D2D3;
+            box-shadow: 0px 0px 20px rgb(111, 136, 247);
+
+            }
+            .frist{
+
+                height: 60%;
+             /* border: 1px solid red; */
+             background: url(https://i.natgeofe.com/n/b07965f4-db84-42bf-acfa-0df9d0040d5b/GettyImages-1241028054_square.jpg);
+              background-size: cover;
+              /* border-radius: 1rem 1rem 0 0; */
+            }
+            .second{
+                height: 40%;
+                /* border: 1px solid yellow; */
+
+                 background: url(https://img.freepik.com/free-photo/surface-with-abstract-watercolor-paint_23-2148733389.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720224000&semt=ais_user);
+                 background-size: cover;
+                 /* border-radius:0 0 1rem 1rem ; */
+                 display: flex;
+            }
+        .card2{
+            height: 550px;
+            width: 300px;
+            /* border: 1px solid grey; */
+            margin: 30px;
+            /* margin-left: 90px; */
+            /* border-radius: 1rem; */
+            box-shadow: 0px 0px 20px rgb(111, 136, 247);
+
+            /* background-color: #D3D2D3; */
+            background: url(https://png.pngtree.com/background/20230413/original/pngtree-warm-background-of-small-town-at-the-foot-of-the-mountain-picture-image_2422430.jpg);
+
+        }
+        .frist1{
+
+height: 60%;
+/* border: 2px solid red; */
+background: url(https://data.1freewallpapers.com/download/house-snow-winter-landscape-art-1680x1260.jpg);
+background-position: center;
+background-size: cover;
+/* border-radius: 1rem 1rem 0 0; */
+}
+        .snow{
+            margin-left: 90px;
+           padding-top: 50px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+        .china{
+            margin-left: 95px;
+          padding-top: 10px;
+            color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+        .icon{
+            margin-left: 80px;
+          padding-top: 20px;
+            color: white;
+            font-size: 60px;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+        .week{
+            width: 14%;
+
+            height: 100%;
+        }
+        .deg1{
+            padding-top: 70px;
+            padding-left: 10px;
+            color: rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 300;
+        }
+        .deg2{
+            padding-top: 50px;
+            padding-left: 10px;
+            color: rgb(48,149, 249);
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+        .deg23{
+            padding-top: 50px;
+            padding-left: 10px;
+            color: rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 300;
+
+        }
+        .deg3{
+            padding-top: 90px;
+            padding-left: 10px;
+            color: rgb(28, 114, 184);
+            font-family: sans-serif;
+            font-weight: 300;
+        }
+        .deg31{
+            padding-top: 90px;
+            padding-left: 10px;
+            color: rgb(48, 159, 249);
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .deg4{
+            padding-top: 30px;
+            padding-left: 10px;
+            color: rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 300;
+        }
+        .wname1{
+            padding-top: 70px;
+            padding-left: 5px;
+            color: rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 500;
+        }
+        .wname2{
+            padding-top: 90px;
+            padding-left: 5px;
+            color:  rgb(48, 159, 249);
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .wname23{
+            padding-top: 90px;
+            padding-left: 5px;
+            color:  rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 500;
+        }
+        .wname3{
+            padding-top: 50px;
+            padding-left: 5px;
+            color: rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 500;
+        }
+        .wname31{
+            padding-top: 50px;
+            padding-left: 5px;
+            color:  rgb(48, 159, 249);
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .wname4{
+            padding-top: 110px;
+            padding-left: 5px;
+            color: rgb(103, 143, 176);
+            font-family: sans-serif;
+            font-weight: 500;
+        }
+        .week i{
+            color: rgb(75, 173, 254);
+            padding-left: 8px;
+            padding-top: 5px;
+            font-size: 20px;
+        }

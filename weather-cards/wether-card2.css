@@ -1,0 +1,101 @@
+    .container{
+            height:600px;
+            width: 1200px;
+            display: flex;
+           flex-wrap: wrap;
+            border-radius: 2rem;
+            margin-left: 5rem;
+            margin-top: 3rem;
+            margin-right: 5rem;
+            background-color: rgba(209, 242, 245, 0.7);
+            padding: 3rem 0rem;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .card1{
+            height: 90%;
+            width: 300px;
+            border: 1px solid grey;
+            margin: 30px;
+            margin-left: 90px;
+            border-radius: 2rem;
+           background: url(https://img.lovepik.com/background/20211102/medium/lovepik-snowy-christmas-tree-mobile-wallpaper-background-image_400795207.jpg);
+           background-size: cover;
+           border: 5px solid white;
+            }
+        .card1 h3{
+            font-family: sans-serif;
+            color:white;
+
+           padding-left: 20px;
+           font-weight:500;
+           font-size: 20px;
+
+        }
+        .card1 h1{
+            font-family: sans-serif;
+            color: white;
+           margin-top: 0px;
+           padding-left: 20px;
+           font-weight:bold;
+           font-size: 40px;
+           margin-top: 10rem;
+        }
+        .card2{
+            height: 90%;
+            width: 300px;
+            border: 1px solid grey;
+            margin: 30px;
+            border-radius: 2rem;
+           background: url(https://i.pinimg.com/736x/53/44/cd/5344cd2b24f8aacc7d90f66e0c16be1e.jpg);
+            border: 5px solid white;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .card2 h3{
+            font-family: sans-serif;
+            color:white;
+
+           padding-left: 20px;
+           font-weight:500;
+           font-size: 30px;
+
+        }
+        .card2 h1{
+            font-family: sans-serif;
+            color: white;
+           margin-top: 0px;
+           padding-left: 20px;
+           font-weight:bold;
+           font-size: 40px;
+           margin-top: 25rem;
+        }
+        .card3{
+            height: 90%;
+            width: 300px;
+            border: 1px solid grey;
+            margin: 30px;
+            border-radius: 2rem;
+            margin-right: 40px;
+           background: url(https://w0.peakpx.com/wallpaper/97/986/HD-wallpaper-house-snow-winter-landscape-art.jpg);
+            border: 5px solid white;
+        }
+        .card3 h3{
+            font-family: sans-serif;
+            color:white;
+
+           padding-left: 20px;
+           font-weight:500;
+           font-size: 30px;
+
+        }
+        .card3 h1{
+            font-family: sans-serif;
+            color:white;
+            margin-top: 5rem;
+           padding-left: 20px;
+           font-weight:bold;
+           font-size: 40px;
+        }
