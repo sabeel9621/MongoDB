@@ -396,8 +396,9 @@ const userdata = [
 // const admin = userdata.filter((user) => user.role == "Admin");
 // console.log(admin);
 
-// const k = userdata.filter((user) => user.role == "customer" && user.username.includes("Karamchandani"));
-// console.log(k);
+// const karm = userdata.filter((user) => user.role == "customer" && user.username.includes("Karamchandani"));
+// console.log(karm);
+
 
 
 // const R = userdata.filter((user) => user.firstName.startsWith("R"));
@@ -407,9 +408,12 @@ const userdata = [
 // const s = userdata.filter((user) => user.skills == "Python");
 // console.log(s);
 
-const R = userdata.filter((user) => user.skills == "Java" && user.skills != "Python");
+// const R = userdata.filter((user) => user.skills == "Java" && user.skills != "Python");
 
-console.log(R);
+// console.log(R);
+// const ad = userdata.filter((user) => user.role == "admin");
+// console.log(ad)
+
 
 
 
