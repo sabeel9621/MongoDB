@@ -1,6 +1,7 @@
 1 How many documents are there in the collection?
 ans=>db.user.find().count
 
+
 2 Retrieve all documents where the role is "admin".
 (ans)db.user.find({role:"admin"})
 
@@ -19,7 +20,7 @@ ans=>db.user.find({firstName:/^R/})
 (ans)db.user.find({firstName:/^S/})
 
 
-(7)Find all documents where the user's first name starts with "S".
+(7)Find all documents where the user's first name starts with "p".
 
 (ans)(ans)db.user.find({firstName:/^p/})
 
