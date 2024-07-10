@@ -1,0 +1,276 @@
+1 How many documents are there in the collection?
+ans=>  console.log(userdata.length);
+
+
+2 Retrieve all documents where the role is "admin".
+(ans) const admin = userdata.filter((user) => user.role == "admin");
+console.log(admin);
+
+3 Find all documents where the role is "customer and the username contains "Karamchandani".
+
+ans=>const karam = userdata.filter((user) => user.role == "customer" && user.username.includes("Karamchandani"));
+console.log(karam);
+
+4 Retrieve the document with the username "Sumanth Rao".
+ans=>const suman=userdata.filter((user)=>user.username.includes("Sumanth Rao"));
+console.log(suman);
+
+(5)Find all documents where the user's first name starts with "R".
+ans=>  const user=userdata.filter((user)=>user.username.startsWith("R"));
+console.log(user);
+
+(6)Find all documents where the user's first name starts with "S".
+
+(ans)const S = userdata.filter((user)=>user.username.startsWith("S"));
+console.log(S);
+
+
+(7)Find all documents where the user's first name starts with "p".
+
+(ans)  const p =userdata.filter((user)=>user.username.startsWith("P"));
+console.log(p)
+
+
+(8) Retrieve all documents where the user has the skill "Python".
+
+(ans) const skill = userdata.filter((user)=>user.skills.includes("Python"));
+console.log(skill);
+
+(9) Find all documents where the user has the skill "Java" and "Python".
+
+(ans) const skills = userdata.filter((user)=>user.skills.includes("Python")&& user.skills.includes("Java"));
+console.log(skills);
+
+(Q10) Retrieve all documents where the user's first name is "Aryan" or the last name is "Gupta".
+
+ans=> const name = userdata.filter((user)=> user.firstName.includes("Aryan") || user.lastName.includes("Gupta"));
+console.log(name);
+
+ (11)Find all documents where the user has the skill "Java" but not "Python".
+
+ (ans) const user= userdata.filter((user)=>user.skills=="Java" && user.skills !="Python");
+ console.log(user);
+
+
+
+(12) Find all documents where the user has the skill "Java" but not "Python".
+
+(ans)const user = userdata.filter((user) => user.skills.includes("Java") && !user.skills.includes("Python"));
+ console.log(user);
+
+(Q13) Retrieve all documents where the user's last name is "Sharma" and the role is "customer".
+
+(ans) const last = userdata.filter((user)=> user.lastName == "Sharma" && user.role=="customer");
+console.log(last);
+
+
+ (Q14)Find all documents where the user has exactly three skills.
+
+ (ans) const skill =userdata.filter((user)=> user.skills.length==3);
+ console.log(skill)
+
+(Q15) Retrieve all documents where the user's first name starts with "S" and the role is "admin".
+
+(ans) const first = userdata.filter((user)=> user.firstName.startsWith("S") && user.role=="admin");
+console.log(first);
+
+
+(Q16) Find all documents where the user has the skill "Java" and the role is not "admin".
+
+(ans)const role = userdata.filter((user) => user.skills.includes("Java") && !user.role.includes("admin"));
+console.log(role);
+
+(Q17) Retrieve all th edocuments where the user,s city Kolkata and gender Female
+
+(ans) const city = userdata.filter((user)=>user.city=="Kolkata" && user.gender=="Female");
+console.log(city);
+
+
+18 Retrieve all documents where the user's role is not specified.
+
+(ans) const role = userdata.filter((user)=> user.role =="undefined" || user.role==""null);
+console.log(role);
+
+
+19 Find all documents where the user has at least four skills.
+(ans)const user = userdata.filter((user)=>user.skills.length >=4);
+console.log(user);
+
+(19) Retrieve all documents where the user's role is "customer" and the user has no specified skills.
+(ans)const skill= userdata.filter((user)=>user.role=="customer"&& user.skills.length==0);
+console.log(skill)
+
+
+ (20)Find all documents where the user's email contains "regexsoftware.com".
+
+(ans) const email = userdata.filter((user)=> user.useremail.includes("regexsoftware.com));
+console.log(email);
+
+(21)Retrieve all documents where the user's email does not contain "gmail.com".
+
+(ans) const email= userdata.filter((user)=> !user.useremail.includes("gmail.com"));
+console.log(email);
+
+(22)Find all documents where the user's last name is not "Singh".
+
+(ans) const last = userdata.filter((user)=> !user.lastName.includes(""Singh));
+console.log(last);
+
+(23)Retrieve all documents where the user's role is "admin" and the user has the skill "Java".
+
+(ans)const skills = userdata.filter((user) => user.role == "admin" && user.skills.includes("Java"));
+console.log(skills);
+
+(24)Find all documents where the user's first name is "Ananya" and the user's role is "customer".
+
+(ans) const first = userdata.filter((user)=>user.firstName=="Ananya" && user.role=="customer");
+console.log(first);
+
+(25)Retrieve all documents where the user's role is "admin" and the user has at least one skill.
+
+(ans) const role = userdata.filter((user)=>  user.role=="admin" && user.skills.length >=1);
+console.log(role);
+
+
+(26)Find all documents where the user's role is "admin" and the user's first name starts with "R".
+
+(ans) const R = userdata.filter((user)=> user.role=="admin" && user.firstName.startsWith("R"));
+console.log(R);
+
+
+(27)Retrieve all documents where the user's role is "customer" and the user's last name is "Patel".
+
+(ans) const patel = userdata.filter((user)=>user.role=="customer" && user.lastName=="Patel");
+console.log(patel);
+
+28 Find all documents where the user's role is "admin" and the user has the skill "Python".
+
+(ans) const python =userdata.filter((user)=> user.role=="admin" && user.skills.includes("Python"));
+console.log(python);
+
+29 Retrieve all documents where the user's role is "customer" and the user's last name is not "Gupta".
+
+(ans) const user = userdata.filter((user)=> user.role=="customer" && !user.lastName.includes("Gupta"));
+console.log(user);
+
+
+30 Find all documents where the user's role is "admin" and the user's email ends with "@regexsoftware.com".
+
+(ans)  const email = userdata.filter((user)=> user.role=="admin" && user.useremail.endsWith("@regexsoftware.com"));
+console.log(email);
+
+31 Retrieve all documents where the user's role is "customer" and the user has the skill "React".
+
+(ans) const react = userdata.filter((user)=> user.role=="customer"&& user.skills.includes("React"));
+console.log(react);
+
+32 Find all documents where the user's role is "customer" and the user has the skill "SQL".
+
+(ans)const react = userdata.filter((user)=> user.role=="customer"&& user.skills.includes("SQL"));
+console.log(react);
+
+33 Retrieve all documents where the user's role is "admin" and the user has at least three skills.
+
+(ans) const user = userdata.filter((user)=> user.role=="admin" && user.skills.length>=3);
+console.log(user);
+
+34 Find all documents where the user's role is "customer" and the user has the skills "Java" and "C++".
+(ans)  const skills = userdata.filter((user)=> user.role=="customer" && user.skills.includes("Java","C++"));
+console.log(skills);
+35 Retrieve all documents where the user's role is "admin" and the user's email does not contain "gmail.com".
+
+(ans) const skills = userdata.filter((user)=> user.role=="admin" && !user.useremail.includes("gmail.com"));
+console.log(skills);
+
+36 Find all documents where the user's role is "customer" and the user's last name starts with "M".
+
+(ans)  const M = userdata.filter((user)=> user.role=="customer" && user.lastName.startsWith("M"));
+console.log(M);
+
+37 Retrieve all documents where the user's role is "admin" and the user's first name is not "Rahul".
+
+(ans) const user = userdata.filter((user) => user.role == "admin" && user.firstName !="Rahul");
+console.log(user);
+
+
+
+38 Find all documents where the user's role is "customer" and the user's email does not contain "gmail.com.
+
+(ans) const user= userdata.filter((user)=>user.role=="customer"&& !user.useremail.includes("gmail.com"));
+console.log(user);
+
+
+39 Retrieve all documents where the user's role is "admin" and the user has the skill "Java" but not "JavaScript".
+
+(ans) const user = userdata.filter((user) => user.role == "admin" && user.skills.includes("Java") && !user.skills.includes("JavaScript"));
+console.log(user);
+
+40 Find all documents where the user's role is "customer" and the user's first name is not "Ananya".
+(ans)  const A = userdata.filter((user)=>user.role=="customer" && user.firstName!="Ananya");
+console.log(A);
+
+41 Retrieve all documents where the user's role is "admin" and the user's email contains "regexsoftware.com
+(ans)const role = userdata.filter((user)=>user.role=="customer" && user.useremail.includes("regexsoftware.com"));
+console.log(role);
+
+42 Find all documents where the user's role is "customer" and the user has the skill "HTML" but not "CSS".
+
+(ans)  const skill = userdata.filter((user)=> user.role=="customer" && user.skills=="HTML" && !user.skills.includes("CSS"));
+console.log(skill);
+
+43 Retrieve all documents where the user's role is "admin" and the user has the skill "Java" and "JavaScript".
+
+(ans)const skill = userdata.filter((user) => user.role == "customer" && user.skills.includes ("Java","Javascript"));
+console.log(skill);
+
+44 Find the average age of users.
+(ans)
+
+45 Find all female users from Jaipur who know Python.
+
+(ans) const female = userdata.filter((user)=> user.city=="Jaipur" && user.skills.includes("Python"));
+console.log(female);
+
+46 Find all male users in Delhi who are above age 26
+(ans)
+
+47 Find all users who are from either New Delhi or Mumbai.
+
+(ans)
+
+48 .
+(ans)Find all users who have the same last name
+
+49 Find the count of users in each city.
+
+(ans)
+
+50 How many users are from New Delhi?
+
+(ans)
+
+51 How many Female users are from Jaipur?
+
+(ans)
+
+52 How many Male users are there in Delhi who have skills Java?
+
+(ans)
+
+53 How many users are from Hyderabad having age greater than 24 and have skill Python,C++
+
+(ans)const user = userdata.filter((user)=>user.city=="Hyderabad" && user.age >=24 && user.skills.includes("Python","C++"));
+console.log(user);
+
+
+54 How many female users are from Goa having age greater than 24 and have skill Python,C++
+
+(ans)  const user = userdata.filter((user)=>user.city=="Goa" && user.age >=24 && user.skills.includes("Python","C++"));
+console.log(user);
+
+greater than = $gt
+lessthan  = $lt
+equal to = $eq
+greater than equal = $gte
+lessthan equal = $lte
+non exists = $ne
