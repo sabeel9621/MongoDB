@@ -1,7 +1,11 @@
 // // asynchronous javascript
+
 // // callback function
+// callback function is a function passed into another function as an argument
 // // callback hell
+
 // // promises
+ 
 // // async/await
 
 // // main function vs side function
@@ -9,7 +13,7 @@
 // // side function is the function that is called after the main function
 
 // // puranee languages mai ek problem thi
-// // main function wo agar kisi side function ko call karta hai aur side function ko us input par output lane mai agar koi time lagata hai usss wakt main function ke rest of the code wait kar rahe hai hote jab tak ki wo return na ho jaye
+// // main function wo agar kisi side function ko call karta hai aur side function ko us input par output lane mai agar koi time lagata hai usss wakt main function ke rest of the code wait kar rahe hai hote hai  jab tak ki wo return na ho jaye
 // //  ise synchronisation issue bolte hai
 // //  setTimeOut ===delay produce
 // // callback ===callback hell
@@ -28,9 +32,16 @@
 
 // // jaha par time consume ho sakta hai wo sare functions apne app mai async function banenge that async function is asynchrounous javascript
 
-// // iske liye side stack ka use karte hai
-// // single threaded hai
-// // event loop ka use hota hai
+// // iske liye side stack ka use karte hai // wht is side stack
+
+// // what is  single threaded ?
+// A single - threaded language is one that can execute only one task at a time.
+
+// // event loop ka use hota hai// what is event loop
+
+//
+//The event loop is a fundamental concept in JavaScript that allows it to perform asynchronous operations, even though it is single - threaded.
+
 
 // // data fecthing using async function
 // const getdata = async () => {
