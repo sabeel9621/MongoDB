@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+        }
+.main{
+    /* border: 2px solid black; */
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 50px 50px 0px 50px;
+        background: linear-gradient(to right, rgb(164, 162, 162), rgb(62, 62, 62));
+
+
+}
+
+.container{
+    /* border: 2px solid red; */
+    width:100%;
+    margin: auto;
+}
+.header{
+    border-bottom: 2px solid rgb(237, 237, 234);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4rem;
+    align-items: center;
+    background-color: white;
+}
+
+.left h2{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.middel ul{
+    display: flex;
+
+}
+.middel ul li{
+    margin: 20px;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-height: 50px;
+}
+.right .btn{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.right .btn button{
+    border: 2px solid rgb(180, 170, 170);
+    border: none;
+    padding: 10px 30px;
+
+}
+
+.content{
+    /* border: 2px solid blue; */
+     width: 100%;
+     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.left1{
+    /* border:2px solid yellow; */
+    width: 47%;
+
+}
+.right1{
+    /* border: 2px solid blue; */
+    width: 45%;
+    /* background-image: url(https://media.licdn.com/dms/image/sync/C5627AQFbnvzNgLiggg/articleshare-shrink_800/0/1711731312848?e=2147483647&v=beta&t=n8buXHMjrpI8jwCGU3n17WaLDOwTDKaqxpGt_gr9a3w);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; */
+
+}
+.right1 h2{
+   font-size: 20px;
+   font-weight: 100;
+   margin: 0;
+   text-transform:capitalize;
+   text-align: center;
+   margin-top: 70px;
+}
+.right1 h2 span{
+    /* color: black; */
+    font-weight: bolder;
+    font-size: 25px;
+}
+.right1 p{
+   font-size: 25px;
+   font-weight: bolder;
+   font-weight: 100;
+   margin: 0;
+   text-align: center;
+   text-transform: capitalize;
+   padding-left:15px ;
+}
+
+.right1 p span{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.main-image{
+/* background-color: rgb(252, 231, 203); */
+height: 610px;
+
+}
+
+.main-image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* .right1 img{
+    width: 100%;
+    height: 100%;
+} */
+
+.upper{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 500px;
+    margin-left: 4rem;
+
+}
+.upper h1{
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+.upper h1 span{
+    margin-left: 10px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    padding: 5px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+
+h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+p{
+    width: 70%;
+    margin: 30px 0px;
+}
+.btn{
+    /* border: 2px solid purple; */
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.btn button{
+    padding: 10px 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: rgb(247, 77, 21);
+    border: none;
+}
+.btn span{
+    padding-left: 10px;
+}
+.clint {
+    margin: 20px 0px;
+}
+.clint p{
+    padding: 0px;
+    margin: 0%;
+    width: 30%;
+}
+.clint h2{
+    font-size: 30px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin: 20px 0px; */
+
+}
+.project h3{
+    font-size: 20px;
+
+
+}
+
+.pro p{
+    padding: 0px;
+    margin: 0%;
+}
+.pro h2{
+    font-size: 30px;
+}
+.contact{
+    margin-right: 20px;
+}
+.contact a {
+    text-decoration: none;
+    padding-top: 10px;
+}
+.lower{
+    /* border: 2px solid red; */
+    margin-top: 8px;
+    padding: 0%;
+    width: 100%;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0px;
+    padding-left: 30px;
+    position: relative;
+
+
+    background-color: black;
+}
+.inner1{
+width: 40%;
+color: white;
+}
+.inner1 p {
+    margin: 10px 0px;
+    width: 100%;
+}
+.inner1 button{
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+}
+.inner2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.inner2 p{
+    width: 100%;
+border-bottom: 1px solid rgb(212, 212, 212);
+text-underline-offset:10px ;
+    margin: 5px 0px;
+}
+.inner2 p:nth-child(1) span{
+position: relative;
+left: 90px;
+}
+.inner2 p:nth-child(2) span{
+position: relative;
+left: 70px;
+}
+.inner2 p:nth-child(3) span{
+position: relative;
+left: 106px;
+}
+
+    </style>
+</head>
+<body>
+  <div class="main">
+     <div class="container">
+      <div class="header">
+        <div class="left">
+            <h2>Sabeel Khan</h2>
+        </div>
+        <div class="middel">
+            <ul>
+                <li>home</li>
+                <li>work</li>
+                <li>about</li>
+                <li>project</li>
+                <li>services</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="btn">
+                <button>let's chat</button>
+            </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="left1">
+            <div class="upper">
+                <h1>Hi! I Am <span>UI/UX</span></h1>
+                <h2>Sabeel Khan</h2>
+                <p>Designing User interface for over 7 years as a product designer</p>
+                <div class="btn">
+                <button>hire me</button> <span>project</span>
+                </div>
+                <div class="clint">
+                    <h2>+84</h2>
+                    <p>clints on work world wide</p>
+                </div>
+                <div class="project">
+                    <div class="pro">
+                        <h2>572</h2>
+                        <p>project done</p>
+                    </div>
+                    <div class="contact">
+                        <h3>contact</h3>
+                        <a href="">
+                            sabeelkhan9621@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="lower">
+                <div class="box">
+      <div class="inner1">
+        <h4>project</h4>
+        <p>statistic 2022</p>
+        <button>Know More</button>
+      </div>
+      <div class="inner2">
+        <p>Website Design <span>75</span></p>
+        <p>Mobile App Design <span>64</span></p>
+        <p>Brand Identity <span>37</span></p>
+      </div>
+                </div>
+            </div>
+        </div>
+        <div class="right1">
+
+            <h2>create your site in <span>figma</span></h2>
+            <p> sketch <span>or</span> xd</p>
+          <div class="main-image">         <img src="https://img.freepik.com/free-photo/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.jpg" alt=""></div>
+        </div>
+      </div>
+
+     </div>
+  </div>
+</body>
+</html>

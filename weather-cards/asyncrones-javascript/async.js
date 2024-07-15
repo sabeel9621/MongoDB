@@ -5,7 +5,7 @@
 // // callback hell
 
 // // promises
- 
+
 // // async/await
 
 // // main function vs side function
@@ -46,9 +46,9 @@
 // // data fecthing using async function
 // const getdata = async () => {
 //     try {
-//         const response = await fetch("https://jsonplaceholder.typicode.com/user&quot;);
-//     const data = await response.json();
-//         console.log(data);
+//         const response = await fetch("https://jsonplaceholder.typicode.com/user&quot;");
+//     const datas = await response.json();
+//         console.log(datas);
 //     } catch (error) {
 //         console.log(error);
 //     }
@@ -60,6 +60,64 @@
 //     console.log("def2");
 //     console.log("def3");
 // };
+// main();
+// console.log("1");
+// console.log("2");
+// console.log("3");
+// console.log("4");
+
+
+
+// const getdata = async () => {
+//     try {
+//         const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//     datas = await response.json();
+//         const addressdata = datas.reduce((newaddarr, data) => {
+//             return [...newaddarr, data.username,data.phone];
+//         }, []);
+//         console.log(addressdata);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// };
+// const main = async () => {
+//     console.log("abc");
+//     await getdata();
+//     console.log("def");
+//     console.log("def2");
+//     console.log("def3");
+// };
+
+// main();
+// console.log("1");
+// console.log("2");
+// console.log("3");
+// console.log("4");
+
+
+
+
+// const getdata = async () => {
+//     try {
+//         const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//     data = await response.json();
+//          console.log(data[0].username);
+//         const addressdata = data.reduce((newaddarr, data) => {
+//             return [...newaddarr,data.username, data.phone];
+//         }, []);
+//         console.log(addressdata);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// };
+// const main = async () => {
+//     console.log("abc");
+//     await getdata();
+//     console.log("def");
+//     console.log("def2");
+//     console.log("def3");
+// };
+
 // main();
 // console.log("1");
 // console.log("2");
